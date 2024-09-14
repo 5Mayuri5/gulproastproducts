@@ -1,0 +1,96 @@
+* {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+}
+body {
+    background-color: #F2F2F2;
+}
+.custom-navbar {
+    background-color: #082B59;
+}
+.custom-navbar .nav-link, .custom-navbar .navbar-brand {
+    color: white !important;
+}
+.custom-navbar .nav-link:hover, .custom-navbar .navbar-brand:hover {
+    color: #131D26 !important; 
+    background-color: #59331D;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.custom-navbar .navbar-toggler {
+    border-color: white;
+}  
+.custom-navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.nav-link.active {
+    background-color: #59331D;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.productscontent {
+    padding: 5vw 5vw
+}
+.product-card {
+    border: 2px solid #dee2e6;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    position: relative;
+    transition: box-shadow 0.3s;
+}
+.product-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.product-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.product-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+.product-description {
+    font-size: 0.875rem;
+    margin-bottom: 40px;
+    color: #666666;
+}
+.product-price {
+    font-size: 1.125rem;
+    text-align: right;
+}
+.stretched-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.product-price-2 {
+    font-size: 2.5rem;
+    padding-bottom: 30px;
+}
+  
+.product-title-2 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}  
+.product-description-2 {
+    font-size: 1rem;
+}
+.card {
+    border-radius: 10px;
+    border: 1px solid #dee2e6;
+    padding: 15px;
+}
+.productpadding {
+    padding-bottom: 125px;
+}
